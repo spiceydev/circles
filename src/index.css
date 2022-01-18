@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  background: #297aac;
+  background-image: radial-gradient(
+    circle at 35% 50%,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(254, 254, 254, 0.1) 0%,
+    rgba(0, 0, 0, 0.1) 50%
+  );
+  font-family: "Raleway", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.outer-ring {
+  width: 250px;
+  height: 250px;
+  opacity: 0.55;
+  background-image: url(./assets/outer-ring-mask.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.simon-says {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  left: 44px;
+  top: 44px;
+}
+
+.simon-says-top {
+  clip: rect(0px, 140px, 70px, 0px);
+}
+
+.simon-says-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.simon-says-bottom-left {
+  clip: rect(70px, 140px, 140px, 0px);
+  clip: rect(70px, 70px, 140px, 0px);
+}
+
+.simon-says-bottom-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.simon-says-bottom-right {
+  clip: rect(70px, 140px, 140px, 0px);
+  clip: rect(70px, 140px, 140px, 70px);
+}
+
+.simon-says-bottom-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.view {
+  position: absolute;
+  top: 135px;
+  left: 69px;
+}
+
+.visit {
+  position: absolute;
+  top: 132px;
+  left: 130px;
+}
+
+.circle-attention {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 93px;
+  left: 93px;
+  border-radius: 50%;
+  background-color: #ff9e37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.curved-text {
+  position: absolute;
+  top: 55px;
+  left: 58px;
+}
+
+.chip {
+  width: 186px;
+  height: 186px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.chip0 {
+}
+
+.chip1 {
+  transform: rotate(45deg);
+}
+
+.chip2 {
+  transform: rotate(90deg);
+}
+
+.chip3 {
+  transform: rotate(135deg);
+}
+
+.chip4 {
+  transform: rotate(180deg);
+}
+
+.chip5 {
+  transform: rotate(225deg);
+}
+
+.chip6 {
+  transform: rotate(270deg);
+}
+
+.chip7 {
+  transform: rotate(315deg);
+}
+
+.form {
+  top: 20rem;
+  left: 3rem;
+  position: absolute;
+  background: hsl(0deg 0% 100%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: hsl(0deg 0% 30%);
+  margin-top: -3em;
+  width: 10rem;
+}
+
+input {
+  outline: none;
+  border: none;
+  &::placeholder {
+    color: hsl(0deg 0% 0%);
+    font-size: 0.9em;
+  }
+}

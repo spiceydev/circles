@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 186 186" width="184px" height="184px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0"/>
+      <feOffset dx="1" dy="1"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M 133.206 22.062 C 120.853 14.93 107.802 11.426 95 11.003 L 95 -0.006 C 118.257 0.738 140.399 10.349 156.923 26.225 L 149.112 34.036 C 144.375 29.468 139.049 25.436 133.206 22.062 Z" style="filter: url(#drop-shadow-filter-0); fill: rgb(196, 47, 47);"/>
+  <circle style="fill: rgb(196, 47, 47);" cx="124.963" cy="12" r="10"/>
+  <rect x="120" y="11" width="10" height="1" style="fill: rgb(255, 255, 255);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 44.743382, -85.020073)"/>
+  <rect x="120" y="11" width="10" height="1" style="fill: rgb(255, 255, 255);" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 221.409195, -68.367554)"/>
+</svg>

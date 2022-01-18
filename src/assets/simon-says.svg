@@ -1,0 +1,27 @@
+
+<svg width="144px" height="144px" viewBox="0 0 144 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-lwxdy0o0hr-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <path d="M67.9714451,94.9211231 L67.9709137,139.971948 C30.9011017,138.931387 1.04058893,109.070875 2.8038469e-05,72.0010627 L45.0508533,72.0005313 C46.0177291,84.21232 55.7596564,93.9542473 67.9714451,94.9211231 Z M139.943925,72.0010627 C138.903354,109.071208 109.042315,138.931924 71.9720399,139.971976 L71.9715102,94.921202 C84.1837659,93.9547778 93.9261974,84.2126525 94.8930994,72.0005313 Z M69.9719764,0 C107.962988,0 138.88525,30.2649153 139.943953,67.9999364 L94.8931784,68.0004662 C93.8745271,55.1282413 83.1060405,45 69.9719764,45 C56.8379123,45 46.0694257,55.1282413 45.0507744,68.0004662 L-3.52096653e-15,67.9999364 C1.05870268,30.2649153 31.9809647,0 69.9719764,0 Z" id="path-lwxdy0o0hr-2"></path>
+        <filter x="-1.8%" y="-1.8%" width="105.0%" height="105.0%" filterUnits="objectBoundingBox" id="filter-lwxdy0o0hr-3">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Circular-Circle-4" transform="translate(-29.000000, -29.000000)">
+            <g id="Centres" transform="translate(30.000000, 30.000000)">
+                <g id="Mask-2" transform="translate(0.028024, 0.000000)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-lwxdy0o0hr-3)" xlink:href="#path-lwxdy0o0hr-2"></use>
+                    <use fill-opacity="0.25" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-lwxdy0o0hr-2"></use>
+                    <use fill-opacity="0.1" fill="url(#linearGradient-lwxdy0o0hr-1)" fill-rule="evenodd" xlink:href="#path-lwxdy0o0hr-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

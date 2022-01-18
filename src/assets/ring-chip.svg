@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 186 186" width="184px" height="184px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0"/>
+      <feOffset dx="1" dy="1"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M 133.206 22.062 C 120.853 14.93 107.802 11.426 95 11.003 L 95 -0.006 C 118.257 0.738 140.399 10.349 156.923 26.225 L 149.112 34.036 C 144.375 29.468 139.049 25.436 133.206 22.062 Z" style="fill: rgba(216, 216, 216, 0.2); filter: url(#drop-shadow-filter-0);"/>
+</svg>
